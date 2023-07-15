@@ -16,17 +16,19 @@ class Verse extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).pop();
           },
-          icon: const Icon(Icons.arrow_back_ios_new_outlined),
+          icon: const Icon(
+            Icons.arrow_back_ios_new_outlined,
+          ),
         ),
       ),
       body: Consumer<GeetaController>(
         builder: (_, pro, __) => ListView.builder(
-          itemCount: pro.allverse2.length,
+          itemCount: (pro.allverse.isEmpty) ? 1 : pro.allverse.length,
           itemBuilder: (_, index) {
             if (pro.allverse2[index].verseNumber == j) {
               return Column(
-                mainAxisAlignment: MainAxisAlignment.center,
                 mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Card(
                     child: Text(pro.allverse[0].text),
