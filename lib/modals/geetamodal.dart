@@ -20,23 +20,22 @@ class GeetaModal {
 
 class GeetaModal2 {
   final String lang;
-  final String title;
   final String description;
   final int verseNumber;
+  final String authorName;
 
-  GeetaModal2({
-    required this.description,
-    required this.verseNumber,
-    required this.lang,
-    required this.title,
-  });
+  GeetaModal2(
+      {required this.description,
+      required this.verseNumber,
+      required this.lang,
+      required this.authorName});
 
   factory GeetaModal2.fromMap({required Map data}) {
     return GeetaModal2(
       description: data['description'],
       verseNumber: data['verseNumber'],
       lang: data['lang'],
-      title: data['title'],
+      authorName: data['authorName'],
     );
   }
 }
