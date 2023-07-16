@@ -1,16 +1,24 @@
-# json
+Project Evaluation:
+- User satisfaction with the application’s functionality and UI/UX
+- Quality of code and project structure
+- Presentation quality and clarity of communication
 
-A new Flutter project.
+  Project Deliverables:
+- A functional Bhagvad Geeta application developed using Flutter.
+- Source code and documentation for the application.
+- User manual and installation instructions.
+- Project report detailing the development process, challenges faced, and solutions implemented.
+- Presentation and demonstration of the application to a panel of reviewers.
 
-## Getting Started
+Project Technologies:
+- Dart language
+- Flutter framework with MVC and Provider architecture
 
-This project is a starting point for a Flutter application.
+https://github.com/omtrivedi110/json/assets/131134704/9c540b03-2580-4a60-9aa5-a4caed2cd471
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<img src = "https://github.com/omtrivedi110/json/assets/131134704/f7e718f6-8389-42da-9155-cd452f7fe555" width= "250px"></img>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src = "https://github.com/omtrivedi110/json/assets/131134704/ab5cfb93-317c-471d-b0d9-adf5588a0f53"  width= "250px"></img>
+<img src = "https://github.com/omtrivedi110/json/assets/131134704/ba69c24b-a3de-4115-9737-41fa75d38bea"   width= "250px"></img>
+<img src = "https://github.com/omtrivedi110/json/assets/131134704/69e5a6da-18af-437c-b632-340a0e70457d"  width= "250px"></img>
