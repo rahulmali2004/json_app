@@ -1,3 +1,5 @@
+project Definition:- Bhagvat Geeta Mobile App
+
 Project Evaluation:
 - User satisfaction with the application’s functionality and UI/UX
 - Quality of code and project structure
@@ -14,11 +16,16 @@ Project Technologies:
 - Dart language
 - Flutter framework with MVC and Provider architecture
 
-https://github.com/omtrivedi110/json/assets/131134704/9c540b03-2580-4a60-9aa5-a4caed2cd471
 
 
-<img src = "https://github.com/omtrivedi110/json/assets/131134704/f7e718f6-8389-42da-9155-cd452f7fe555" width= "250px"></img>
+https://github.com/rahulmali2004/json_app/assets/130822416/5c19670b-b063-4441-ba47-21c4e83e41ed
 
-<img src = "https://github.com/omtrivedi110/json/assets/131134704/ab5cfb93-317c-471d-b0d9-adf5588a0f53"  width= "250px"></img>
-<img src = "https://github.com/omtrivedi110/json/assets/131134704/ba69c24b-a3de-4115-9737-41fa75d38bea"   width= "250px"></img>
-<img src = "https://github.com/omtrivedi110/json/assets/131134704/69e5a6da-18af-437c-b632-340a0e70457d"  width= "250px"></img>
+
+
+
+<img src = "https://github.com/rahulmali2004/json_app/assets/130822416/79e7c680-df3b-402a-8655-30f2ffa529aa" width= "250px"></img>
+
+<img src = "https://github.com/rahulmali2004/json_app/assets/130822416/88ed444f-0477-4870-90ef-323e4bd02747" width= "250px"></img>
+<img src = "https://github.com/rahulmali2004/json_app/assets/130822416/0ccf3080-31f0-47bd-9afe-a82cbe40d1c4"   width= "250px"></img>
+<img src = "https://github.com/rahulmali2004/json_app/assets/130822416/1e6a95d7-f50c-4fde-baaa-b0d7fecde915"  width= "250px"></img>
+<img src = "https://github.com/rahulmali2004/json_app/assets/130822416/30f356d0-2184-4a34-82f5-2c832957351e"  width= "250px"></img>
