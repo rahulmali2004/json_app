@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:json/controller/geeta_controller.dart';
+import 'package:json/controller/gitacontroller.dart';
 import 'package:provider/provider.dart';
 
-class Verse extends StatelessWidget {
-  const Verse({super.key});
+class gitapage2 extends StatelessWidget {
+  const gitapage2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Verse extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
-        child: Consumer<GeetaController>(
+        child: Consumer<gitacontroller>(
           builder: (_, pro, __) => ListView.builder(
             itemCount: pro.allverse2.length,
             itemBuilder: (_, index) {
@@ -110,7 +110,7 @@ class Verse extends StatelessWidget {
                   ],
                 );
               } else {
-                return const SizedBox();
+                return SizedBox();
               }
             },
           ),

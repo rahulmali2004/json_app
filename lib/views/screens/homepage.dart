@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json/controller/geeta_controller.dart';
+import 'package:json/controller/gitacontroller.dart';
 import 'package:json/utils/routes_utils.dart';
 import 'package:json/views/component/list.dart';
 import 'package:provider/provider.dart';
@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
-        child: Consumer<GeetaController>(builder: (context, pro, _) {
+        child: Consumer<gitacontroller>(builder: (context, pro, _) {
           return ListView.builder(
             itemCount: 18,
             itemBuilder: (_, index) => Card(
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                 leading: Text("${index + 1}"),
                 onTap: () {
                   Navigator.of(context)
-                      .pushNamed(MyRoutes.chap, arguments: index);
+                      .pushNamed(MyRoutes.gitapage, arguments: index);
                 },
               ),
             ),

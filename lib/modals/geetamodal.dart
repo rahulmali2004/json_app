@@ -1,16 +1,16 @@
-class GeetaModal {
+class gitamodal {
   final String text;
   final int chapter_id;
   final int verse_order;
 
-  GeetaModal({
+  gitamodal({
     required this.text,
     required this.chapter_id,
     required this.verse_order,
   });
 
-  factory GeetaModal.fromMap({required Map data}) {
-    return GeetaModal(
+  factory gitamodal.fromMap({required Map data}) {
+    return gitamodal(
       chapter_id: data['chapter_id'],
       verse_order: data['verse_order'],
       text: data['text'],
@@ -18,20 +18,20 @@ class GeetaModal {
   }
 }
 
-class GeetaModal2 {
+class gitamodal2 {
   final String lang;
   final String description;
   final int verseNumber;
   final String authorName;
 
-  GeetaModal2(
+  gitamodal2(
       {required this.description,
       required this.verseNumber,
       required this.lang,
       required this.authorName});
 
-  factory GeetaModal2.fromMap({required Map data}) {
-    return GeetaModal2(
+  factory gitamodal2.fromMap({required Map data}) {
+    return gitamodal2(
       description: data['description'],
       verseNumber: data['verseNumber'],
       lang: data['lang'],

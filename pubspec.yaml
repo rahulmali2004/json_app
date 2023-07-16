@@ -66,8 +66,9 @@ flutter:
 
   assets:
     - assets/json.json
-    - assets/geeta.json
-    - assets/geetsmean.json
+    - assets/gita.json
+    - assets/gitapath.json
+    - assets/gitaphoto.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

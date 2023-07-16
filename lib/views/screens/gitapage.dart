@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:json/controller/geeta_controller.dart';
+import 'package:json/controller/gitacontroller.dart';
 import 'package:json/utils/routes_utils.dart';
 import 'package:provider/provider.dart';
 
-class ChapterPage extends StatelessWidget {
-  const ChapterPage({super.key});
+class gitapage extends StatelessWidget {
+  const gitapage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class ChapterPage extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.all(18.0),
-        child: Consumer<GeetaController>(builder: (context, pro, _) {
+        child: Consumer<gitacontroller>(builder: (context, pro, _) {
           return ListView.builder(
               itemCount: pro.allverse.length,
               itemBuilder: (_, index) {
@@ -31,7 +31,7 @@ class ChapterPage extends StatelessWidget {
                   return Card(
                     child: ListTile(
                       onTap: () {
-                        Navigator.of(context).pushNamed(MyRoutes.verse,
+                        Navigator.of(context).pushNamed(MyRoutes.gitapage2,
                             arguments: pro.allverse[index].verse_order);
                       },
                       title: Text(
@@ -45,7 +45,7 @@ class ChapterPage extends StatelessWidget {
                     ),
                   );
                 } else {
-                  return const SizedBox();
+                  return SizedBox();
                 }
               });
         }),
